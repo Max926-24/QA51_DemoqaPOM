@@ -32,6 +32,7 @@ public class AlertsFrameWindowsTests extends TestBase {
         sidePanel.selectAlerts();
         alerts.verifyAlertTimer();
     }
+
      @Test
      @DisplayName("Verify to - 'Cancel'is displayed")
      @Tag("smoky")
